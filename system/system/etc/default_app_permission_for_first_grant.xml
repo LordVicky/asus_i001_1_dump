@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<list>
+
+    <!-- super app -->
+
+
+    <!-- social -->
+
+    <item
+        package="com.sina.weibo">
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" enable="true"/>
+        <permission name="android.permission.READ_PHONE_STATE" enable="true"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" enable="true"/>
+    </item>
+
+
+    <!-- shopping -->
+
+    <item
+        package="com.jingdong.app.mall">
+        <permission name="android.permission.READ_PHONE_STATE" enable="true"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" enable="true"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" enable="true"/>
+
+    </item>
+
+
+    <!-- map -->
+
+
+    <!-- life -->
+
+
+    <!-- news -->
+
+
+    <!-- video -->
+
+
+    <!-- tools -->
+
+    <!-- backup -->
+
+    <item
+        package="com.qq.qcloud">
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" enable="true"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" enable="true"/>
+        <permission name="android.permission.READ_PHONE_STATE" enable="true"/>
+    </item>
+
+
+
+</list>

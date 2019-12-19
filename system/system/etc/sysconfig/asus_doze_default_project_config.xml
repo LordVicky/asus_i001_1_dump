@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Configurations are parsed in Systemconfig.java -->
+<config>
+    <!-- These are the standard packages that are white-listed to always have internet
+         access while in power save mode, even if they aren't in the foreground. -->
+    <!-- ZS660KL -->
+    <allow-in-power-save package="com.tencent.southpole.appstore" />
+    <allow-in-power-save package="com.tencent.mm" />
+    <allow-in-power-save package="com.tencent.mobileqq" />
+    <allow-in-power-save package="com.duowan.kiwi" />
+    <allow-in-power-save package="com.tencent.mia.trs" />
+    <allow-in-power-save package="com.asus.as" />
+</config>

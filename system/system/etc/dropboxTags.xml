@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<sys>
+    <dropboxTag name="charge"></dropboxTag>
+    <dropboxTag name="charging_cnt"></dropboxTag>
+    <dropboxTag name="charging_time"></dropboxTag>
+    <dropboxTag name="charging_temperature"></dropboxTag>
+    <dropboxTag name="sim_enter"></dropboxTag>
+    <dropboxTag name="screen_unlock"></dropboxTag>
+    <dropboxTag name="net_work"></dropboxTag>
+    <dropboxTag name="system_dual_wifi"></dropboxTag>
+    <dropboxTag name="notification_arrive"></dropboxTag>
+    <dropboxTag name="notification_click"></dropboxTag>
+    <dropboxTag name="asus_app_usertime_and_start_up"></dropboxTag>
+    <dropboxTag name="asus_light_switch_cnt"></dropboxTag>
+    <dropboxTag name="asus_light_switch_time"></dropboxTag>
+    <dropboxTag name="asus_light_game_cnt"></dropboxTag>
+    <dropboxTag name="asus_light_game_time"></dropboxTag>
+    <dropboxTag name="asus_light_type_systemevent"></dropboxTag>
+    <dropboxTag name="asus_light_type_gameevent"></dropboxTag>
+    <dropboxTag name="asus_fan_on_system_tmep_and_fan_off_system_tmep"></dropboxTag>
+    <dropboxTag name="asus_fan_time_gametime_and_fancnt_gamecnt"></dropboxTag>
+    <dropboxTag name="app_install"></dropboxTag>
+    <dropboxTag name="app_update"></dropboxTag>
+    <dropboxTag name="app_uninstall"></dropboxTag>
+    <dropboxTag name="app_install_event"></dropboxTag>
+    <dropboxTag name="asus_app_raw_launch_event"></dropboxTag>
+    <dropboxTag name="enter_locksreen_wallpaper_default_mode"></dropboxTag>
+    <dropboxTag name="unlock_locksreen_wallpaper_from_default_mode"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_default_mode_url"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_url"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_swipe"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_like"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_pin"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_tosetting"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_delete"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_backto_through_click"></dropboxTag>
+    <dropboxTag name="click_locksreen_wallpaper_more_mode_backto_through_swipe"></dropboxTag>
+</sys>
+<game_center>
+    <dropboxTag name="asus_gamecenter"></dropboxTag>
+    <dropboxTag name="asus_gamecenter_launch"></dropboxTag>
+    <dropboxTag name="asus_gamecenter_profile"></dropboxTag>
+</game_center>
+<game_genie>
+    <dropboxTag name="gamegenie_action_count"></dropboxTag>
+    <dropboxTag name="gamegenie_action_timestamp"></dropboxTag>
+    <dropboxTag name="batteryconsume_gametime"></dropboxTag>
+    <dropboxTag name="chargingtime_gametime"></dropboxTag>
+    <dropboxTag name="charging_game_left"></dropboxTag>
+    <dropboxTag name="charging_game_temperature"></dropboxTag>
+    <dropboxTag name="chargingcnt_gamecnt"></dropboxTag>
+    <dropboxTag name="game_cnt"></dropboxTag>
+    <dropboxTag name="game_time"></dropboxTag>
+</game_genie>
+<negative_screen>
+    <dropboxTag name="asus_enter_search"></dropboxTag>
+    <dropboxTag name="asus_click_search_result"></dropboxTag>
+    <dropboxTag name="asus_click_search_more"></dropboxTag>
+    <dropboxTag name="asus_click_search_history"></dropboxTag>
+    <dropboxTag name="asus_enter_minusonescreen_home"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_card"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_suggestion_one"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_suggestion_more"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_performance"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_shortcut"></dropboxTag>
+    <dropboxTag name="asus_enter_minusonescreen_shortcut_edit"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_honorofking"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_calendar"></dropboxTag>
+    <dropboxTag name="asus_enter_minusonescreen_edit"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_honorofking_to_yingdi"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_honorofking_morefriends"></dropboxTag>
+    <dropboxTag name="asus_enter_minusonescreen_home_vip_qq"></dropboxTag>
+    <dropboxTag name="asus_enter_minusonescreen_home_vip_wechat"></dropboxTag>
+    <dropboxTag name="asus_login_minusonescreen_vip_qq"></dropboxTag>
+    <dropboxTag name="asus_login_minusonescreen_vip_wechat"></dropboxTag>
+    <dropboxTag name="asus_logout_minusonescreen_vip_qq"></dropboxTag>
+    <dropboxTag name="asus_logout_minusonescreen_vip_wechat"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_vip_qq_call"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_vip_wechat_call"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_vip_qq_miniprogram"></dropboxTag>
+    <dropboxTag name="asus_click_minusonescreen_vip_wechat_miniprogram"></dropboxTag>
+    <dropboxTag name="asus_click_search_from_launcher_suggestion_game"></dropboxTag>
+    <dropboxTag name="asus_click_search_from_launcher_suggestion_app"></dropboxTag>
+    <dropboxTag name="asus_click_search_from_minusonescreen_suggestion_game"></dropboxTag>
+    <dropboxTag name="asus_click_search_from_minusonescreen_suggestion_app"></dropboxTag>
+    <dropboxTag name="asus_click_search_from_launcher_query"></dropboxTag>
+    <dropboxTag name="asus_click_search_from_minusonescreen_query"></dropboxTag>
+    <dropboxTag name="asus_minusonescreen_event"></dropboxTag>
+</negative_screen>
+</document>

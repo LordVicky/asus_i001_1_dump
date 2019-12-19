@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+    <app pkg="com.ss.android.article.news" />
+    <app pkg="com.tencent.news" />
+    <app pkg="com.netease.newsreader.activity" />
+</policy>
