@@ -1,0 +1,11 @@
+﻿[{"wallpaper":"default_slideshow_wallpaper01","title":"黑暗核心进化","description":"聚集更多光源、累积更多能量，体验光束效能大进化。","author":""},
+{"wallpaper":"default_slideshow_wallpaper02","title":"高效传输","description":"未来高人口密度城市里，彼此传递最迅速的数据，分析最实时的大数据。","author":""},
+{"wallpaper":"default_slideshow_wallpaper03","title":"三角原力","description":"一旦跨越霓虹灯照射的三角走廊，就能被赋予超能力逃脱黑暗世界。","author":""},
+{"wallpaper":"default_slideshow_wallpaper04","title":"赛博城市","description":"营造独特的超现实氛围，运用绚丽的霓虹灯光，打造一座科技不夜城。","author":""},
+{"wallpaper":"default_slideshow_wallpaper05","title":"装甲太空舱","description":"人类搭乘装载奇幻能量的太空舱，移居外星球重建新文明。","author":""},
+{"wallpaper":"default_slideshow_wallpaper06","title":"科幻宇宙飞船","description":"宇宙飞船强力运转涡轮核心，蓄势待发随时做好战斗准备。","author":""},
+{"wallpaper":"default_slideshow_wallpaper07","title":"原力光芒","description":"黑暗中绽放的霓虹光芒，带来无与伦比的力量。","author":""},
+{"wallpaper":"default_slideshow_wallpaper08","title":"钢铁通道","description":"走在钢铁科幻走道上，抛开枷锁，无所畏惧唤醒内心深处的自由意志。","author":""},
+{"wallpaper":"default_slideshow_wallpaper09","title":"极速电路","description":"每一块电路板都挑战无限可能，提供最极致的量子效能。","author":""},
+{"wallpaper":"default_slideshow_wallpaper10","title":"幻光之柱","description":"霓虹紫色光柱汇集强大能量，发出无可匹敌的光芒。","author":""},
+{"wallpaper":"default_slideshow_wallpaper11","title":"透视未来","description":"玻璃太空舱蓄势待发前往浩瀚的宇宙，开创另一个崭新纪元。","author":""}]
