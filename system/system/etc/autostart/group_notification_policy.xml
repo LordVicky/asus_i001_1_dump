@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policy>
+    <app pkg="com.ss.android.article.news" />
+    <app pkg="com.tencent.news" />
+    <app pkg="com.netease.newsreader.activity" />
+    <app pkg="com.snda.wifilocating" />
+    <app pkg="com.tencent.reading" />
+    <app pkg="com.ijinshan.browser_fast" />
+    <app pkg="com.baidu.searchbox" />
+    <app pkg="com.baidu.minivideo" />
+    <app pkg="com.sina.news" />
+    <app pkg="com.youku.phone" />
+    <app pkg="com.tencent.mtt" />
+    <app pkg="com.wuba" />
+    <app pkg="com.UCMobile" />
+    <app pkg="com.tencent.videolite.android" />
+    <app pkg="com.tencent.news.lite" />
+    <app pkg="cn.wps.moffice_eng" />
+</policy>

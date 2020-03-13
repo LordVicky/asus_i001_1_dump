@@ -1,0 +1,11 @@
+﻿[{"wallpaper":"default_slideshow_wallpaper01","title":"Dark Reactor Core","description":"This reactor core, powered by dark matters, can produce enormous energy and powerful forces.","author":""},
+{"wallpaper":"default_slideshow_wallpaper02","title":"Multiplex Vault","description":"A look into the future where data is stored in multiplex of vaults.","author":""},
+{"wallpaper":"default_slideshow_wallpaper03","title":"Triangular Force","description":"Walk through the neon-lit triangular door, and be empowered by the force to fight against the dark empire.","author":""},
+{"wallpaper":"default_slideshow_wallpaper04","title":"Cyber City","description":"A cyber city with surreal atmosphere created by light and sound of machines.","author":""},
+{"wallpaper":"default_slideshow_wallpaper05","title":"Spacecraft Energy","description":"Let's board the spacecraft energized by space-matters and explore the outer limits of the universe.","author":""},
+{"wallpaper":"default_slideshow_wallpaper06","title":"Grid Fortress","description":"In the heart of the spacecraft is a grid fortress of steel pillars that fortifies it.","author":""},
+{"wallpaper":"default_slideshow_wallpaper07","title":"Neon Force","description":"Multicolored neon lights are forces to be reckoned with. ","author":""},
+{"wallpaper":"default_slideshow_wallpaper08","title":"Steel Core-ridor","description":"Walk through the steel corridor, shedding fears and shackles, to reach the core of the force.","author":""},
+{"wallpaper":"default_slideshow_wallpaper09","title":"Blue Circuit","description":"Each circuit leads to endless possibilities and delivers the ultimate in quantum performance.","author":""},
+{"wallpaper":"default_slideshow_wallpaper10","title":"Pillar of Light","description":"Bravely venture towards the pillar of light. It is the source of endless energy.","author":""},
+{"wallpaper":"default_slideshow_wallpaper11","title":"Translucent Capsules","description":"These translucent capsules are ready to travel to space, and explore new frontiers.","author":""}]
