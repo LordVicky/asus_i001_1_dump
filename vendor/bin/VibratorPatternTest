@@ -1,0 +1,154 @@
+#change vd_clamp parameter
+if [ -n "$1" ]; then
+	export CMD=$1
+else
+	echo "CMD not assigned !"
+	echo "param: 0: Stop play, 1: Max Power, 2: Rated Power, 3: default, 4:Sweep Rated Power"
+	exit
+fi
+
+if [ "$CMD" -lt "0" -o "$CMD" -gt "4" ]; then
+	echo "CMD not assigned !"
+	echo "param: 0: Stop play, 1: Max Power, 2: Rated Power, 3: default, 4:Sweep Rated Power"
+	exit
+fi
+
+channel=`cat /sys/class/leds/vibrator/channel`
+
+
+if [ "$CMD" -eq "0" ]; then
+	if [ "${channel}" == "Channel=0x1" ]; then
+	#BOT_VIB
+		echo 44 > "/sys/dongwoon_haptic_drv/enableVIB"
+		echo "Pass"
+	elif [ "${channel}" == "Channel=0x2" ]; 
+	then
+	#TOP_VIB
+		echo 44 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+	elif [ "${channel}" == "Channel=0x3" ]; 
+	then
+	#BOT_VIB
+		echo 44 > "/sys/dongwoon_haptic_drv/enableVIB"
+	#TOP_VIB
+		echo 44 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+	else
+		echo "Channel error!"
+	fi
+
+elif [ "$CMD" -eq "1" ]; then
+	if [ "${channel}" == "Channel=0x1" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 30 > "/sys/dongwoon_haptic_drv/enableVIB"
+		echo "Pass"
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x2" ]; 
+	then
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 33 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x3" ]; 
+	then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 30 > "/sys/dongwoon_haptic_drv/enableVIB" &
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp" &
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 33 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	else
+		echo "Channel error!"
+	fi
+
+elif [ "$CMD" -eq "2" ]; then
+	if [ "${channel}" == "Channel=0x1" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 31 > "/sys/dongwoon_haptic_drv/enableVIB"
+		echo "Pass"
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x2" ]; 
+	then
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 34 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x3" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 31 > "/sys/dongwoon_haptic_drv/enableVIB" &
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp" &
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 34 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	else
+		echo "Channel error!"
+	fi
+
+elif [ "$CMD" -eq "3" ]; then
+	if [ "${channel}" == "Channel=0x1" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 42 > "/sys/dongwoon_haptic_drv/enableVIB" &
+		echo "Pass" &
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x2" ]; 
+	then
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 43 > "/sys/dongwoon_haptic_drv/enableVIB_0832" &
+		echo "Pass" &
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x3" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 42 > "/sys/dongwoon_haptic_drv/enableVIB" &
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp" &
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 43 > "/sys/dongwoon_haptic_drv/enableVIB_0832" &
+		echo "Pass" &
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	else
+		echo "Channel error!"
+	fi
+
+elif [ "$CMD" -eq "4" ]; then
+	if [ "${channel}" == "Channel=0x1" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 32 > "/sys/dongwoon_haptic_drv/enableVIB"
+		echo "Pass"
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x2" ]; 
+	then
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 35 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	elif [ "${channel}" == "Channel=0x3" ]; then
+	#BOT_VIB
+		echo 1 2800> "/sys/class/leds/vibrator/vd_clamp"
+		echo 32 > "/sys/dongwoon_haptic_drv/enableVIB" & 
+		echo 1 4800> "/sys/class/leds/vibrator/vd_clamp" &
+	#TOP_VIB
+		echo 2 2520> "/sys/class/leds/vibrator/vd_clamp"
+		echo 35 > "/sys/dongwoon_haptic_drv/enableVIB_0832"
+		echo "Pass"
+		echo 2 3500> "/sys/class/leds/vibrator/vd_clamp"
+	else
+		echo "Channel error!"
+	fi
+else
+		echo "Command error!"
+fi
